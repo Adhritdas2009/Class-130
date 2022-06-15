@@ -1,0 +1,96 @@
+.vol{
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Koulen', cursive;
+}
+
+.voy{
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Koulen', cursive;
+}
+
+body{
+    background: url('background.jpg');
+}
+
+#header{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 0;
+    font-family: 'Koulen', cursive;
+    margin-left: 0;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+}
+
+#p{
+    font-family: 'Koulen', cursive;
+    margin-left: 0px;
+    width: 20%;
+}
+
+canvas{
+    background-color: whitesmoke;
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 3px 3px 20px greenyellow;
+    }
+
+    to{
+        box-shadow: 3px 3px 20px rgb(87, 167, 236);
+    }
+}
+
+#div1{
+    max-width: 500px;
+    padding: 10px;
+    color: white;
+    margin-top: 500px;
+    margin-left:30px;
+    opacity: 1.0 !important;
+    z-index: 90 !important;
+}
+
+.btn{
+    margin-left: 70px;
+    color:black;
+    font-size: 20px;
+}
+#h{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 10px;
+    width: 25%;
+}
+
+.g{
+    margin: 10px auto;
+    font-size: 30px;
+    max-width: 500px;
+    padding: 15px;
+    text-align:justify;
+}
+
+#prim{
+    width: 600px;
+    border-radius: 80px; 
+}
+
+#butto{
+    width: 30%;
+    margin-left: 0px;
+}
